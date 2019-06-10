@@ -1,0 +1,105 @@
+// Ignore this class.  It just adds a border so that you can find your element.
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+
+:host {
+  border: 1px solid black;
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+
+// write your code here!
+.title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+}
+.date{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+}
+.onedescription{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.one{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+}
+
+.onedescription, .one {
+  display: inline-block;
+}
+
+.two{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+
+}
+
+.twodescription{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+/* or 25px */
+  color: #5A5A5A;
+
+}
+
+.twodescription, .two {
+  display: inline-block;
+}
+
+.three{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+
+}
+
+.threedescription{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+/* or 25px */
+  color: #5A5A5A;
+
+}
+
+.threedescription, .three {
+  display: inline-block;
+}
